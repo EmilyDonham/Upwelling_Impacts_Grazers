@@ -5,12 +5,16 @@ All data and R code used to obtain the results are presented in the Data and R C
 
 Figure 1 - plot_pH_TimeSeries_Github.R
 Figure 2 - plot_pH_TimeSeries_Github.R
-Figure 3 - plot_pH_TimeSeries_Github.R
+Figure 3 - GCB_Upwelling_Github.R
 Figure 4 - GCB_Upwelling_Github.R
 Figure 5 - GCB_Upwelling_Github.R
 Figure 6 - GCB_Upwelling_Github.R
 Fig. S1 - plot_pH_TimeSeries_Github.R
 Fig. S2 - GCB_Upwelling_Github.R
 Fig. S3 - GCB_Upwelling_Github.R
+Fig. S4 - GCB_Upwelling_Github.R
+Table 1 - GCB_Upwelling_Github.R
 Table 2 - GCB_Upwelling_Github.R
-Table S1 - GCB_Upwelling_Github.R
+Table S1 - plot_pH_TimeSeries_Github.R
+Table S2 - GCB_Upwelling_Github.R
+
