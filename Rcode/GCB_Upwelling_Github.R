@@ -550,8 +550,8 @@ k
 l <- ggarrange(i, j, k, labels = c("(a)", "(b)", "(c)"), common.legend = TRUE, legend = "bottom", ncol = 1, nrow = 3)
 l
 
-#Create FIGURE S1
-ggsave(plot = l, file = "FigS1.png", 
+#Create FIGURE S2
+ggsave(plot = l, file = "FigS2.png", 
        type = "cairo-png",  bg = "white",
        width = 15, height = 25, units = "cm", dpi = 300)
 
@@ -1212,7 +1212,7 @@ bi2
 
 #FIGURE 3 plot
 l <- ggarrange(bi1,bi2, labels = c("(a)", "(b)"), common.legend = TRUE, legend = "bottom", ncol = 2, nrow = 1)
-ggsave(plot = l, file = "Biplots.pdf", bg = "white",
+ggsave(plot = l, file = "Fig3.pdf", bg = "white",
        width = 20, height = 10, units = "cm", dpi = 300)
 
 
@@ -1508,10 +1508,10 @@ k <- ggplot(DOtest, aes(x = Date, y = DO, color = factor(H)), group = factor(H))
 k 
 k <- k + guides(color = guide_legend(nrow=1)) + scale_y_continuous(breaks = c(5,7,9))
 
-#Figure S2
+#Figure S3
 l <- ggarrange(m, j, k, labels = c("(a)", "(b)", "(c)"), common.legend = TRUE, legend = "bottom", ncol = 1, nrow = 3)
 l
-ggsave(plot = l, file = "EnvDataExp2.png", 
+ggsave(plot = l, file = "FigS3.png", 
        type = "cairo-png",  bg = "white",
        width = 15, height = 25, units = "cm", dpi = 300)
 
@@ -1991,18 +1991,19 @@ SFgrowth
 Sup <- ggarrange(e,f,d, labels = c("(a)", "(b)", "(c)"), ncol = 1, nrow = 3)
 Sup
 
-ggsave(plot = l, file = "SF_RGAddVar.png", 
+ggsave(plot = l, file = "Fig4.png", 
        type = "cairo-png",  bg = "transparent",
        width = 30, height = 20, units = "cm", dpi = 300)
 
-ggsave(plot = SFgrowth, file = "SF_WWBWAddVar.png", 
+ggsave(plot = TP, file = "Fig5.png", 
+       type = "cairo-png",  bg = "transparent",
+       width = 15, height = 35, units = "cm", dpi = 300)
+
+ggsave(plot = SFgrowth, file = "Fig6.png", 
        type = "cairo-png",  bg = "transparent",
        width = 15, height = 23.5, units = "cm", dpi = 300)
 
-ggsave(plot = TP, file = "TP_AddVar.png", 
-       type = "cairo-png",  bg = "transparent",
-       width = 15, height = 35, units = "cm", dpi = 300)
-ggsave(plot = Sup, file = "TP_Suppl.png", 
+ggsave(plot = Sup, file = "FigS4.png", 
        type = "cairo-png",  bg = "transparent",
        width = 15, height = 35, units = "cm", dpi = 300)
 
