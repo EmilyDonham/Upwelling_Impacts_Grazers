@@ -1,5 +1,5 @@
 # Upwelling_Impacts_Grazers
-This is a repository for code and data used in the analysis of the manuscript entitled: "Coupled changes in pH, temperature and dissolved oxygen impact the physiology and ecology of herbivorous kelp forest grazers".
+This is a repository for code and data used in the analysis of the manuscript: "Coupled changes in pH, temperature and dissolved oxygen impact the physiology and ecology of herbivorous kelp forest grazers".
 
 All data and R code used to obtain the results are presented in the Data and R Code folders. R packages needed to process the data are provided in the respective heading of each R file. All Figures presented in the manuscript were created using the following R files:
 
